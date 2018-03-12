@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Whats The Weather</string>
+    <string name="enterLocation">Enter the Location &#8230;</string>
+    <string name="buttonText">Let\'s find out</string>
+</resources>

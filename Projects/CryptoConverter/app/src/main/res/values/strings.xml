@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Crypto Converter</string>
+    <string name="about">About &#8230;</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="valueHint">Enter the amount &#8230;</string>
+    <string name="defaultText">1</string>
+    <string name="rank">Rank</string>
+    <string name="name">Name</string>
+    <string name="percentage">%24h</string>
+</resources>

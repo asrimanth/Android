@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.srimanth.whatstheweather.MainActivity">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgd2"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/enterTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/myImageView"
+        android:text="@string/enterLocation"
+        android:textSize="40sp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterTextView"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationEditText"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/buttonText"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:onClick="findWeather"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationButton"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"/>
+
+
+
+</RelativeLayout>
