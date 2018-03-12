@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RecyclerView Fun</string>
+
+    <string-array name="pet_name">
+        <item> Cat</item>
+        <item> Dog</item>
+        <item> Horse</item>
+        <item> Rabbit</item>
+        <item> Pigeon</item>
+        <item> Eagle</item>
+        <item> Peacock</item>
+    </string-array>
+
+    <string-array name="description">
+        <item> Cat is cute!</item>
+        <item> Dog is faithful.</item>
+        <item> Horse runs very fast.</item>
+        <item> Rabbit is very cute.</item>
+        <item> Pigeon can deliver messages.</item>
+        <item> Eagle has a sharp eyesight.</item>
+        <item> Peacock dances in the rain.</item>
+    </string-array>
+</resources>

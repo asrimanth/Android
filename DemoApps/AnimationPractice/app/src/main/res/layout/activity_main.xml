@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.srimanth.animationpractice.MainActivity">
+
+    <ImageView
+        android:id="@+id/vegeta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="fade1"
+        android:src="@drawable/vegeta"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/goku"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="fade1"
+        android:alpha="0"
+        android:src="@drawable/goku"
+        android:scaleType="centerCrop"/>
+</RelativeLayout>
