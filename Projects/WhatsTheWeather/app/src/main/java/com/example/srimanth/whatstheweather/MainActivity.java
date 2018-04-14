@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     result+=current;
                     data=inputStreamReader.read();
                 }
+                Log.i("result",result);
 
                 return result;
 
@@ -86,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
                 return "failed";//null;
             }
+
 
 
         }
